@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+   width: 100%;
+   height: 100%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+#quote{
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 11vw;
+    height: 11vw;
+    padding: 2vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.nav1{
+    display: flex;
+    padding: 2vw;
+    gap: 5vw;
+    font-size: 1.6vw;
+   
+}
+.nav1 h3 a{
+    text-decoration: none;
+     color: black;
+    
+}
+.nav .button{
+    border: none;
+    font-size: 1vw;
+    background-color: rgb(32, 120, 214);
+    color: white;
+    padding: 0.8vw;
+    border-radius: 10px;
+}
+.nav-body{
+    display: flex;
+}
+.nav-body {
+    width: 25vw;
+    height: 25vw;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+}
+.left img{
+    width: 20vw;
+    height: 20vw;
+}
+.right img{
+    width: 20vw;
+    height: 20vw;
+}
+.text h2{
+    font-size: 4vw;
+    padding-left: 4.5vw;
+}
+.text h3{
+    font-size: 1.7vw;
+}
+.about{
+    padding-left: 2vw;
+}
+.about p{
+  font-size: 2vw;
+}
+.feat{
+    display: flex;
+    gap: 20vw;
+}
+.about{
+    padding-left: 7vw;
+}
+.features{
+    padding-right: 2vw;
+}
+.features h4{
+    margin: 0.6vw;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    align-items: center;
+}
+.third{
+    display: flex;
+    align-items: center;
+}
+.first h4{
+    font-size: 2vw;
+}
+.second h4{
+    font-size: 2vw;
+}
+.third h4{
+    font-size: 2vw;
+}
+.first img{
+    height: 180px;
+    width: 180px;
+
+}
+.second img{
+    height: 200px;
+    width: 200px;
+}
+.third img{
+    height: 200px;
+    width: 200px;
+}
+.text-b{
+    display: flex;
+   justify-content: space-between;
+   padding: 2vw;
+}
+.lastb h3{
+    font-size: 2vw;
+}
+.lastb{
+    padding: 3vw;
+}
